@@ -18,6 +18,27 @@ Get the latest files from the [Releases page](https://github.com/Fungusware/Meti
 | `Metis-Agent-linux-x64.tar.gz` | The agent for Linux PCs and servers (64-bit Intel and AMD). |
 | `Metis-Agent-linux-arm64.tar.gz` | The agent for 64-bit ARM Linux, such as a Raspberry Pi 4 or 5. |
 
+### Quick install
+
+One line downloads the current version and installs it.
+
+Windows, in PowerShell as Administrator:
+
+```powershell
+irm https://metis.fungusware.com/agent.ps1 | iex
+```
+
+Linux (picks 64-bit Intel/AMD or ARM by itself):
+
+```sh
+curl -fsSL https://metis.fungusware.com/agent.sh | sudo bash
+```
+
+For the dashboard, use `dashboard.ps1` or `dashboard.sh` instead. On Linux, installer options go after `bash -s --`, for example
+`curl -fsSL https://metis.fungusware.com/agent.sh | sudo bash -s -- --dashboard https://dashboard:9443`. To read a script before you run it, open its address in a browser.
+
+### By hand
+
 The Windows dashboard and the Windows agent need Windows 10 (1607) or Windows Server 2016 or newer, 64-bit. Unzip, open PowerShell as
 Administrator in the folder, and run `.\Install-MetisDashboard.ps1` or `.\Install-MetisAgent.ps1`. If PowerShell says running
 scripts is disabled, run `powershell -ExecutionPolicy Bypass -File .\Install-MetisAgent.ps1` instead (this one run only).
