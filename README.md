@@ -14,6 +14,7 @@ Get the latest files from the [Releases page](https://github.com/Fungusware/Meti
 | `Metis-Dashboard-win-x64.zip` | The dashboard for Windows. Install it once, on one Windows machine. |
 | `Metis-Dashboard-linux-x64.tar.gz` | The dashboard for Linux PCs and servers (64-bit Intel and AMD). Install it once. |
 | `Metis-Dashboard-linux-arm64.tar.gz` | The dashboard for 64-bit ARM Linux, such as a Raspberry Pi 4 or 5. |
+| `MetisDashboard-x64-<version>.spk`, `MetisDashboard-arm64-<version>.spk` | The dashboard as a Synology DSM 7.2+ package (Package Center). |
 | `Metis-Agent-win-x64.zip` | The agent for Windows. Install it on each Windows machine you want to watch. |
 | `Metis-Agent-linux-x64.tar.gz` | The agent for Linux PCs and servers (64-bit Intel and AMD). |
 | `Metis-Agent-linux-arm64.tar.gz` | The agent for 64-bit ARM Linux, such as a Raspberry Pi 4 or 5. |
@@ -36,6 +37,15 @@ curl -fsSL https://metis.fungusware.com/agent.sh | sudo bash
 
 For the dashboard, use `dashboard.ps1` or `dashboard.sh` instead. On Linux, installer options go after `bash -s --`, for example
 `curl -fsSL https://metis.fungusware.com/agent.sh | sudo bash -s -- --dashboard https://dashboard:9443`. To read a script before you run it, open its address in a browser.
+
+
+### Synology DSM 7 (package)
+
+On a Synology NAS (DSM 7.2 or newer, Intel/AMD or ARM64) install the dashboard from Package Center. In **Package Center > Settings > General**
+set **Trust Level** to **Any publisher** (the package is not signed). In **Settings > Package Sources** add `https://www.fungusware.com/synology`.
+Then install **Metis Dashboard** from **Community**; Package Center shows an **Update** button when a new version is out. Open `http://<nas>:9080`
+(agents report to port 9443) and sign in as `metis` / `metis.metis`. You can also download `MetisDashboard-x64-<version>.spk` or
+`MetisDashboard-arm64-<version>.spk` from the Releases page and use **Manual Install**. The agent is installed as on any Linux machine.
 
 ### By hand
 
