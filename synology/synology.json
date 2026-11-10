@@ -1,0 +1,20 @@
+{
+    "package":  "MetisDashboard",
+    "name":  "Metis Dashboard",
+    "description":  "Shows the health of every machine, hypervisor, server controller and network device in one place. Metis agents report to it.",
+    "icon72":  "https://www.fungusware.com/img/synology/metis-72.png",
+    "icon256":  "https://www.fungusware.com/img/synology/metis-256.png",
+    "version":  "2026.11.9-257",
+    "stamp":  "2026.11.09.0257",
+    "changelog":  "Metis Dashboard as a Synology package for DSM 7.2 and newer. Installs over the old version and keeps your data.",
+    "x64":  {
+                "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.09.0257/MetisDashboard-x64-2026.11.9-257.spk",
+                "md5":  "abe16f5ab3cad328d572150ee9a7dcbb",
+                "size":  76113920
+            },
+    "arm64":  {
+                  "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.09.0257/MetisDashboard-arm64-2026.11.9-257.spk",
+                  "md5":  "329fb242ccc26e23b4b8a4318c518a80",
+                  "size":  72099840
+              }
+}
