@@ -4,17 +4,17 @@
     "description":  "Shows the health of every machine, hypervisor, server controller and network device in one place. Metis agents report to it.",
     "icon72":  "https://www.fungusware.com/img/synology/metis-72.png",
     "icon256":  "https://www.fungusware.com/img/synology/metis-256.png",
-    "version":  "2026.11.11-355",
-    "stamp":  "2026.11.11.0355",
-    "changelog":  "Investigate on Windows reads the same memory figure as the dashboard; anomaly stability and Relearn.",
+    "version":  "2026.11.11-607",
+    "stamp":  "2026.11.11.0607",
+    "changelog":  "Update agents from the dashboard; Investigate on Windows reads the dashboard\u0027s memory figure.",
     "x64":  {
-                "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.11.0355/MetisDashboard-x64-2026.11.11-355.spk",
-                "md5":  "2deab7343ece60e75de76b19f09f65e7",
-                "size":  76206080
+                "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.11.0607/MetisDashboard-x64-2026.11.11-607.spk",
+                "md5":  "6d0ce57ee5a9a62a354843107d5430b9",
+                "size":  76247040
             },
     "arm64":  {
-                  "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.11.0355/MetisDashboard-arm64-2026.11.11-355.spk",
-                  "md5":  "87fc1c32a000bb5ad5f0951274469dc5",
-                  "size":  72202240
+                  "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.11.0607/MetisDashboard-arm64-2026.11.11-607.spk",
+                  "md5":  "8d9e9eb3fcbbb484d7b0fa36a00d1390",
+                  "size":  72232960
               }
 }
