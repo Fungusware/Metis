@@ -4,17 +4,17 @@
     "description":  "Shows the health of every machine, hypervisor, server controller and network device in one place. Metis agents report to it.",
     "icon72":  "https://www.fungusware.com/img/synology/metis-72.png",
     "icon256":  "https://www.fungusware.com/img/synology/metis-256.png",
-    "version":  "2026.11.20-830",
-    "stamp":  "2026.11.20.0830",
+    "version":  "2026.11.20-1026",
+    "stamp":  "2026.11.20.1026",
     "changelog":  "",
     "x64":  {
-                "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.20.0830/MetisDashboard-x64-2026.11.20-830.spk",
-                "md5":  "6cb4ebd9cc317f1f9e47fe964f9ddede",
-                "size":  78417920
+                "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.20.1026/MetisDashboard-x64-2026.11.20-1026.spk",
+                "md5":  "0e9911680350ff7b86514138a7f8e598",
+                "size":  78489600
             },
     "arm64":  {
-                  "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.20.0830/MetisDashboard-arm64-2026.11.20-830.spk",
-                  "md5":  "d4310831c9e8752a81c19d4f97cb31bc",
-                  "size":  74362880
+                  "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.20.1026/MetisDashboard-arm64-2026.11.20-1026.spk",
+                  "md5":  "fec231e68ad0949dcf36d623db5c1983",
+                  "size":  74414080
               }
 }
