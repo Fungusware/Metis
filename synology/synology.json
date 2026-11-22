@@ -4,17 +4,17 @@
     "description":  "Shows the health of every machine, hypervisor, server controller and network device in one place. Metis agents report to it.",
     "icon72":  "https://www.fungusware.com/img/synology/metis-72.png",
     "icon256":  "https://www.fungusware.com/img/synology/metis-256.png",
-    "version":  "2026.11.21-922",
-    "stamp":  "2026.11.21.0922",
-    "changelog":  "",
+    "version":  "2026.11.22-306",
+    "stamp":  "2026.11.22.0306",
+    "changelog":  "Acknowledge open alerts, Docker Engine monitoring (experimental), memory alert delay and hold, machine roles with their own load and temperature limits.",
     "x64":  {
-                "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.21.0922/MetisDashboard-x64-2026.11.21-922.spk",
-                "md5":  "b40a61a92d3a9a2ee7af87714299d23d",
-                "size":  78551040
+                "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.22.0306/MetisDashboard-x64-2026.11.22-306.spk",
+                "md5":  "53c7e5f2671fb754c7a45d2077fdc040",
+                "size":  78602240
             },
     "arm64":  {
-                  "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.21.0922/MetisDashboard-arm64-2026.11.21-922.spk",
-                  "md5":  "76908ae51fb61f0969e43dae7d63084f",
-                  "size":  74485760
+                  "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.22.0306/MetisDashboard-arm64-2026.11.22-306.spk",
+                  "md5":  "09b7e7f75ff1baa6047176fb0e76875e",
+                  "size":  74536960
               }
 }
