@@ -4,17 +4,17 @@
     "description":  "Shows the health of every machine, hypervisor, server controller and network device in one place. Metis agents report to it.",
     "icon72":  "https://www.fungusware.com/img/synology/metis-72.png",
     "icon256":  "https://www.fungusware.com/img/synology/metis-256.png",
-    "version":  "2026.11.26-938",
-    "stamp":  "2026.11.26.0938",
-    "changelog":  "A reinstalled hypervisor or a reused address can be added again; removing a hypervisor forgets its saved certificates.",
+    "version":  "2026.11.26-1109",
+    "stamp":  "2026.11.26.1109",
+    "changelog":  "Security fix for Linux installs. Recommended update.",
     "x64":  {
-                "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.26.0938/MetisDashboard-x64-2026.11.26-938.spk",
-                "md5":  "332bed286b9ad104f416d56e47256de8",
+                "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.26.1109/MetisDashboard-x64-2026.11.26-1109.spk",
+                "md5":  "fce76c5ecdf706adacf6f4b547be0727",
                 "size":  78653440
             },
     "arm64":  {
-                  "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.26.0938/MetisDashboard-arm64-2026.11.26-938.spk",
-                  "md5":  "99f8cb00b5a8f2b38701ff4f9b35ae40",
+                  "link":  "https://github.com/Fungusware/Metis/releases/download/2026.11.26.1109/MetisDashboard-arm64-2026.11.26-1109.spk",
+                  "md5":  "1ae18b7a578b2be8740f03b690bf5942",
                   "size":  74577920
               }
 }
